@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Path Drawing</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        canvas {
+            border: 1px solid #000;
+        }
+
+        .clock {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            margin-top: 0.5rem;
+            font-weight: 300;
+            font-size: 1rem;
+            font-family: Helvetica, sans-serif;
+            gap: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <canvas id="clockCanvas" width="500" height="500"></canvas>
+        <div class="clock">
+            <div id="hour"></div>
+            <div id="minute"></div>
+            <div id="second"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
