@@ -10,3 +10,10 @@ https://mirtamontanelli.github.io/GIM/Esercizio_1A/rotazione_2.html
 https://mirtamontanelli.github.io/GIM/Esercizio_1A/rotazione_3.html
 https://mirtamontanelli.github.io/GIM/Esercizio_1A/spostamento_2.html
 https://mirtamontanelli.github.io/GIM/Esercizio_1A/spostamento_3.html
+
+### Esercizio 1B
+https://mirtamontanelli.github.io/GIM/Esercizio_1B/indexA.html
+
+### Esercizio 2
+https://mirtamontanelli.github.io/GIM/Esercizio_2/Template/OsmosisA.html
+https://mirtamontanelli.github.io/GIM/Esercizio_2/OsmosisB.html

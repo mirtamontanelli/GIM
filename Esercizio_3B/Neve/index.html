@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Es 3B - Neve</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script>
+        let fiocchi = [];
+
+        function setup() {
+            createCanvas(windowWidth, windowHeight);
+            for (let i = 0; i < 200; i++) {
+                fiocchi.push(new Fiocco());
+            }
+        }
+
+        function windowResized() {
+            resizeCanvas(windowWidth, windowHeight);
+        }
+
+        function draw() {
+            background(0);
+            for (let fiocco of fiocchi) {
+                fiocco.cadere();
+                fiocco.mostrare();
+            }
+        }
+
+        class Fiocco {
+            constructor() {
+                this.x = random(0, width);
+                this.y = random(0, height);
+                this.r = random(2, 5);
+                this.velocita = random(1, 3);
+            }
+
+            cadere() {
+                this.y += this.velocita;
+                if (this.y > height) {
+                    this.y = 0;
+                    this.x = random(0, width);
+                }
+            }
+
+            mostrare() {
+                noStroke();
+                fill(255);
+                ellipse(this.x, this.y, this.r * 2);
+            }
+        }
+    </script>
+</body>
+</html>
+
