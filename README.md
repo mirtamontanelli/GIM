@@ -19,8 +19,8 @@ https://mirtamontanelli.github.io/GIM/Esercizio_1C/README.md
 
 ### Esercizio 2
 L'osmosi intesa come l'influenza reciproca tra individui o elementi contigui, si riflette in un logo animato per un sito di ispirazione creativa tratta dalla natura.
-https://mirtamontanelli.github.io/GIM/Esercizio_2/template/OsmosisA.html
 https://mirtamontanelli.github.io/GIM/Esercizio_2/template/OsmosisB.html
+https://mirtamontanelli.github.io/GIM/Esercizio_2/template/OsmosisA.html
 
 ### Esercizio 3A
 Disegnare col tempo infiniti e randomici pattern
